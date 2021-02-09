@@ -9,3 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hretc-astra-child
 Template: astra
 */
+
+body.woocommerce-checkout .woocommerce-notices-wrapper .woocommerce-message[role=alert] {
+    display: none;
+}
