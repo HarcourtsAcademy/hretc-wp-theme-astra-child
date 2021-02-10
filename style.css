@@ -13,3 +13,9 @@ Template: astra
 body.woocommerce-checkout .woocommerce-notices-wrapper .woocommerce-message[role=alert] {
     display: none;
 }
+
+.woocommerce-checkout.woocommerce-order-pay .wc-credit-card-form-card-number {
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
