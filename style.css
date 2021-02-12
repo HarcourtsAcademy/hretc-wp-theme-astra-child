@@ -19,3 +19,16 @@ body.woocommerce-checkout .woocommerce-notices-wrapper .woocommerce-message[role
     background-position-x: right;
     background-position-y: center;
 }
+
+/* Edwiser My Courses page. */
+#post-1840 > header h1.entry-title {
+    display: none;
+}
+
+#post-1840 div.wdm-course-image img {
+    object-fit: cover;
+}
+
+#post-1840 div.wdm-caption > h4 {
+    white-space: inherit;
+}
